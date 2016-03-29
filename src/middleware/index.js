@@ -12,7 +12,7 @@ var requiresLogout = function(req, res, next)
 {
 	if(req.session.account)
 	{
-		return res.redirect("/marker");
+		return res.redirect("/maker");
 	}
 	
 	next();
